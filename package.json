@@ -1,0 +1,28 @@
+{
+  "name": "hiring-coders-javascript-basico",
+  "version": "1.0.0",
+  "description": "Projeto criado durante o Bootcamp Hiring Coders",
+  "main": "script.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node script.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliamsousa/hiring-coders-javascript-basico.git"
+  },
+  "keywords": [
+    "Javascript",
+    "Web",
+    "HTML",
+    "Basics",
+    "Data",
+    "Structures"
+  ],
+  "author": "Júlia Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliamsousa/hiring-coders-javascript-basico/issues"
+  },
+  "homepage": "https://github.com/juliamsousa/hiring-coders-javascript-basico#readme"
+}
