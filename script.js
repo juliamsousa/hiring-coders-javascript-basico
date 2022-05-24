@@ -1,6 +1,28 @@
-var operador = 100;
-var operando = 50;
+class Math {
+  sum(n1, n2) {
+    return n1 + n2;
+  }
 
-var resultado = operador * operando;
+  sub(n1, n2) {
+    return n1 - n2;
+  }
 
-console.log("O resultado é: ", resultado);
+  div(n1, n2) {
+    return n1 / n2;
+  }
+
+  mult(n1, n2) {
+    return n1 * n2;
+  }
+}
+
+function main() {
+  var math = new Math();
+
+  console.log(math.sub(10, 6));
+  console.log(math.sum(10, 6));
+  console.log(math.div(10, 6));
+  console.log(math.mult(10, 6));
+}
+
+main();
